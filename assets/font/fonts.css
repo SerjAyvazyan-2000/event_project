@@ -1,0 +1,42 @@
+
+
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Light.woff') format('woff'),
+    local('JosefinSans-Light.woff.woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-SemiBold.woff') format('woff'),
+    local('JosefinSans-SemiBold.woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Regular.woff') format('woff'),
+    local('JosefinSans-Regular.woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Medium.woff') format('woff'),
+    local('JosefinSans-Medium.woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Bold.woff') format('woff'),
+    local('JosefinSans-Bold.woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.woff') format('woff'),
+    local('Lato-Regular.woff');
+    font-weight: 400;
+}

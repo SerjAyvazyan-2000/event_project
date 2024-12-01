@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+.icon-arrow-down{
+    mask-image: url(arrowDown.svg);
+    -webkit-mask-image: url(arrowDown.svg);
+}
+.icon-arrow-left{
+    mask-image: url(arrowLeft.svg);
+    -webkit-mask-image: url(arrowLeft.svg);
+}
+.icon-arrow-right{
+    mask-image: url(arrowRight.svg);
+    -webkit-mask-image: url(arrowRight.svg);
+}
+.icon-arrow-faq{
+    mask-image: url(arrowLeft.svg);
+    -webkit-mask-image: url(arrowLeft.svg);
+}
+.icon-callCheck{
+    mask-image: url(callCheck.svg);
+    -webkit-mask-image: url(callCheck.svg);
+}
+.icon-callChecked{
+    mask-image: url(callChecked.svg);
+    -webkit-mask-image: url(callChecked.svg);
+}

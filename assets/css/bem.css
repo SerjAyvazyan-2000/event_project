@@ -1,32 +1,93 @@
 
-
-
-
-
-.wrapper{
+.wrapper {
     overflow: hidden;
 }
-.container{
+
+.container {
     max-width: 1390px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.section{
-     margin-top: 120px;
+.section {
+    margin-top: 120px;
 
 }
-.section-title{
+
+.section-title {
     font-size: 46px;
     font-weight: 400;
     line-height: 56px;
     letter-spacing: -0.05em;
     text-align: center;
     color: rgba(113, 9, 22, 1);
+    margin: 0 auto;
     text-transform: uppercase;
 }
-.block-content{
+
+.cards-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    flex: 1 1 22%;
+    /*max-width: 310px;*/
+    width: 100%;
+    min-height: 360px;
+    background: rgba(113, 9, 22, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 84px 0 0 ;
+    justify-content: flex-start;
+}
+
+.card-sub-title span{
+    display: block;
+}
+.card-img-item {
+    max-width: 310px;
+    width: 100%;
+    min-height: 360px;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0 40px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(251, 249, 250, 1);
+
+}
+
+.card-sub-title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 240px;
+    color: rgba(251, 249, 250, 0.9);
+
+}
+
+.card-title span {
+    display: block;
+}
+
+.block-content {
     margin-top: 40px;
 }
 
@@ -38,7 +99,7 @@
     text-align: center;
     text-transform: uppercase;
     color: rgba(113, 9, 22, 1);
-    border: 2px dashed rgba(113, 9, 22, 1) ;
+    border: 2px dashed rgba(113, 9, 22, 1);
     background: rgba(166, 12, 14, 0.2);
     width: 200px;
     height: 200px;
@@ -48,48 +109,572 @@
     transition: .3s;
 
 }
-.quote-request:hover{
-     opacity: .8;
+
+.quote-request:hover {
+    opacity: .8;
 }
+
+.check-block {
+    padding: 80px 0;
+    background: rgba(113, 9, 22, 1);
+
+}
+
+.video-clue {
+    padding: 40px 0 0;
+    background: #E7E6E2;
+    gap: 20px;
+    align-items: center;
+}
+.video-clue p {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}
+
+.check-item {
+    width: 200px;
+    background: rgba(166, 12, 14, 0.1);
+    height: 200px;
+    border: 2px dashed rgba(251, 249, 250, 1);
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(251, 249, 250, 1);
+    text-transform: uppercase;
+    transition: .3s;
+
+
+}
+
+.check-item:hover {
+    opacity: .8;
+}
+
+.check-body {
+    gap: 60px;
+    justify-content: center;
+}
+.check-clue{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(251, 249, 250, 1);
+    text-transform: uppercase;
+}
+
+.check-clue span{
+    display: block;
+}
+.pricing-700-clue {
+    font-weight: 700;
+
+}
+.video-block {
+    min-height: 700px;
+    background: rgba(251, 249, 250, 1);
+    flex-direction: column;
+
+}
+
+.video-play-tools {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(113, 9, 22, 1);
+
+}
+
+.icon-polygon {
+    background: rgba(251, 249, 250, 1);
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.main-title {
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(113, 9, 22, 1);
+
+}
+
+.section-sub-title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+    padding-top: 10px;
+    margin: 0 auto;
+
+}
+.hire-sub-title span{
+    display: block;
+}
+.why-hire-body {
+    gap: 40px;
+}
+
+.why-hire-picture {
+    max-width: 660px;
+    width: 100%;
+}
+
+.why-hire-description {
+    max-width: 660px;
+    width: 100%;
+    gap: 40px;
+}
+
+.hire-info-item {
+    gap: 10px;
+}
+.why-hire-sub-title{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    max-width: 868px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+}
+
+.hire-info-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    color: rgba(113, 9, 22, 1);
+    text-transform: uppercase;
+
+}
+
+.hire-sub-title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(18, 18, 18, 1);
+
+
+}
+.why-hire-faq-sub{
+    padding-top: 40px;
+
+}
+.request-block {
+    gap: 40px;
+    justify-content: center;
+}
+
+.request-block-item {
+    max-width: 360px;
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.request-section{
+    padding-bottom: 120px;
+}
+
+.host-faq-item.active .host-faq-subs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-height: 1300px;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.host-faq-title {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(251, 249, 250, 1);
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(203, 203, 203, 0.6);
+    padding: 20px 10px;
+    min-height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.host-faq-subs {
+    max-width: 1028px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 40px;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    padding: 0 15px;
+
+}
+
+.host-faq-sub-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    color: rgba(251, 249, 250, 1);
+    opacity: .9;
+
+}
+
+.host-faq-sub-title span {
+    display: block;
+}
+
+.host-faq-sub-list {
+    margin-top: 10px;
+
+}
+.models-title{
+    margin: 0 auto;
+    color: rgba(18, 18, 18, 1);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.host-faq-list {
+    justify-content: center;
+    background: rgba(113, 9, 22, 1);
+
+}
+
+.host-faq-item {
+    cursor: pointer;
+    transition: .3s;
+}
+@media (any-hover: hover) {
+    .host-faq-item:hover .host-faq-subs {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        max-height: 1300px;
+        opacity: 1;
+        visibility: visible;
+
+    }
+}
+
+
+.host-faq-sub-item {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    color: rgba(251, 249, 250, 1);
+    opacity: .9;
+    position: relative;
+    padding-left: 35px;
+
+
+}
+
+
+.host-faq-sub-item::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(251, 249, 250, 1);
+
+}
+
+
+
 @media (max-width: 1400px) {
+    .card-item {
+        flex: 1 1 24%;
 
-
+    }
 }
-
 
 
 @media (max-width: 1200px) {
 
-
+    .request-block{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 992px) {
-    .section{
+    .section {
         margin-top: 80px;
 
     }
-    .quote-request{
+
+    .card-item {
+        flex: 1 1 40%;
+        padding: 20px;
+
+    }
+
+    .cards-block {
+        gap: 20px;
+    }
+
+    .main-title {
+        font-size: 37px;
+        line-height: normal;
+    }
+
+
+    .host-faq-item {
+
+    }
+    .host-faq-title {
+        padding: 20px 10px;
+        min-height: 80px;
+        font-size: 35px;
+        line-height: 56px;
+
+    }
+    .host-faq-sub-title{
+        font-size: 22px;
+
+    }
+    .host-faq-sub-item{
+        font-size: 18px;
+    }
+    .host-faq-item.active .host-faq-subs{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    .check-body {
+        gap: 40px;
+    }
+
+    .quote-request {
         font-size: 13px;
         font-weight: 400;
         line-height: 22px;
         width: 100px;
         height: 100px;
     }
+    .why-hire-body {
+        flex-direction: column;
+    }
+    .why-hire-picture{
+        max-width: 100%;
+    }
+    .why-hire-picture img{
+        width: 100%;
+    }
+    .video-block {
+        min-height: 600px;
+    }
 
 }
 
 @media (max-width: 768px) {
+    .video-block {
+        min-height: 500px;
+    }
 
+    .host-faq-title {
+        font-size: 25px;
+    }
+    .request-block-item {
+        max-width: 100%;
+        height: 760px;
+    }
+    .cards-block {
+        gap: 10px;
+    }
+    .request-section{
+        padding-bottom: 80px;
+    }
+    .check-clue {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .video-play-tools {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon-polygon {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .check-body {
+        flex-direction: column;
+    }
 
 }
+
 @media (max-width: 576px) {
-    .section{
+    .section {
         margin-top: 60px;
 
     }
-    .block-content{
+    .video-clue {
+        padding: 10px 0;
+        gap: 5px;
+    }
+    .video-clue p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+    .why-hire-body{
+        gap: 20px;
+    }
+    .why-hire-description{
+        gap: 20px;
+
+    }
+    .hire-info-item{
+        gap: 5px;
+    }
+    .hire-info-title {
+        font-size: 18px;
+    }
+    .hire-sub-title {
+        font-size: 16px;
+    }
+    .host-faq-title {
+        padding: 10px 5px;
+        min-height: 50px;
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+    .host-faq-sub-title{
+        font-size: 13px;
+        line-height: 23px;
+
+    }
+    .host-faq-item.active .host-faq-subs{
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+    .host-faq-sub-item{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .card-img-item {
+        max-width: 100%;
+        min-height: 260px;
+    }
+    .request-section{
+        padding-bottom: 60px;
+    }
+    .section-title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .request-block-item {
+        max-width: 100%;
+        height: 360px;
+        background-size: unset;
+    }
+    .card-item {
+        padding: 10px;
+        flex: 1 1 100%;
+        min-height: 260px;
+    }
+    .section-sub-title{
+        padding-top: 0;
+        font-size: 16px;
+    }
+
+    .block-content {
         margin-top: 20px;
     }
 
+    .video-block {
+        min-height: 400px;
+    }
 
+    .check-item {
+        width: 100px;
+        height: 100px;
+        border: 1px dashed rgba(251, 249, 250, 1);
+        border-radius: 50%;
+        font-size: 12px;
+
+
+    }
+
+    .video-play-tools {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-polygon {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+
+    .check-clue {
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .main-title {
+        font-size: 22px;
+    }
+    .why-hire-sub-title{
+        font-size: 16px;
+        padding-bottom: 10px;
+
+    }
+    .models-title{
+        font-size: 18px;
+        padding-top: 20px;
+        line-height: 26px;
+
+
+    }
+    .card-sub-title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 10px;
+        max-width: 240px;
+    }
 }

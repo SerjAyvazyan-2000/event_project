@@ -35,3 +35,7 @@
     mask-image: url(callChecked.svg);
     -webkit-mask-image: url(callChecked.svg);
 }
+.icon-polygon{
+    mask-image: url(polygon.svg);
+    -webkit-mask-image: url(polygon.svg);
+}

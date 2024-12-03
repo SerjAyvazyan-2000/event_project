@@ -1,0 +1,32 @@
+
+
+
+.models-clue {
+    max-width: 970px;
+    margin: 0 auto;
+}
+.models-clue span{
+    display: block;
+}
+.models-title span{
+    display: block;
+}
+.models-sub-title{
+     max-width: 472px;
+    margin: 0 auto;
+}
+.models-top-title{
+    max-width: 926px;
+
+}
+.models-bottom-title{
+     max-width: 926px;
+}
+
+.models-request-sub{
+    max-width: 542px;
+}
+.models-request-sub span{
+    display: block;
+}
+

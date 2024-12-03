@@ -1,0 +1,150 @@
+
+.service-section {
+    padding-top: 158px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.services-sub-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+    text-transform: uppercase;
+    padding-bottom: 40px;
+
+
+}
+
+
+.video {
+    display: none;
+}
+
+
+
+.services-video-clue p {
+    max-width: 754px;
+}
+
+.services-video-clue span {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+
+}
+.check-services-clue {
+    max-width: 300px;
+}
+.servers-sub-title {
+    max-width: 780px;
+}
+
+.servers-title {
+    max-width: 789px;
+}
+
+.servers-img-info {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(251, 249, 250, 1);
+    max-width: 276px;
+}
+
+
+.choose-event-section {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 120px;
+
+}
+.request-sub-title {
+    max-width: 673px;
+}
+
+@media (max-width: 1400px) {
+
+
+}
+
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+    .choose-event-section {
+        padding-top: 80px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .service-section {
+        padding-top: 110px;
+    }
+
+
+    .services-sub-title {
+        font-size: 20px;
+        line-height: 22px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .section {
+        margin-top: 60px;
+
+    }
+    .choose-event-section {
+        padding-top: 60px;
+    }
+
+
+    .services-sub-title {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .block-content {
+        margin-top: 20px;
+    }
+
+
+
+    .servers-img-info {
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+
+    }
+
+
+
+    .services-video-clue span {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+
+    }
+
+}

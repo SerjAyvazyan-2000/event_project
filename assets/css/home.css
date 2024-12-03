@@ -5,17 +5,6 @@
 
 }
 
-.hero-title {
-    font-size: 67px;
-    font-weight: 400;
-    line-height: 74px;
-    letter-spacing: -0.05em;
-    text-align: center;
-    text-transform: uppercase;
-    color: rgba(113, 9, 22, 1);
-
-
-}
 
 
 .hero-request {
@@ -887,10 +876,7 @@
         margin-top: 64px;
     }
 
-    .hero-title {
-        font-size: 37px;
-        line-height: normal;
-    }
+
 
     .quote-content {
         gap: 20px;
@@ -1071,10 +1057,7 @@
         gap: 20px;
     }
 
-    .section-title {
-        font-size: 30px;
-        line-height: 26px;
-    }
+
 
     .quote-content {
         gap: 10px;
@@ -1100,9 +1083,7 @@
         margin-top: 20px;
     }
 
-    .hero-title {
-        font-size: 22px;
-    }
+
 
     .faq-contact {
         margin-top: 30px;

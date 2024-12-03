@@ -1,0 +1,30 @@
+
+.ambassadors-clue {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.ambassadors-clue span {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgba(18, 18, 18, 1);
+
+
+}
+.ambassadors-check-clue{
+     max-width: 428px;
+}
+.ambassadors-title{
+     max-width: 917px;
+}
+.ambassadors-sub-title{
+    max-width: 917px;
+}
+.ambassadors-sub{
+     gap: 20px;
+}
+.ambassadors-request-sub{
+     max-width: 672px;
+}

@@ -78,3 +78,24 @@ const iconElement = document.querySelector('.call-checkout');
 iconElement.addEventListener('click', () => {
     iconElement.classList.toggle('active');
 });
+
+
+
+
+function toggleActiveHost(item) {
+    const allItems = document.querySelectorAll('.host-faq-item');
+
+    allItems.forEach(otherItem => {
+        if (otherItem !== item) {
+            otherItem.classList.remove('active');
+        }
+    });
+
+    item.classList.toggle('active');
+}
+
+document.querySelectorAll('.host-faq-item').forEach(item => {
+    item.addEventListener('click', () => toggleActiveHost(item));
+
+});
+

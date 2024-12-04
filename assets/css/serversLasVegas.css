@@ -1,0 +1,174 @@
+
+.service-body {
+    overflow: hidden;
+}
+
+.service-vegas-slides {
+    animation: left 45s linear infinite;
+    gap: 40px;
+
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-170%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.services-vegas-clue span{
+    font-weight: 700;
+}
+.services-vegas-clue{
+     max-width: 934px;
+    margin: 0 auto;
+}
+.vegas-request-sub{
+    max-width: 637px;
+}
+.service-vegas-item {
+    min-width: 310px;
+    min-height: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: .3s;
+    position: relative;
+}
+
+.service-vegas-profession {
+    padding: 22px 10px;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    background: rgba(203, 203, 203, 0.6);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(113, 9, 22, 1);
+}
+
+.check-item {
+    width: 200px;
+    background: rgba(166, 12, 14, 0.1);
+    height: 200px;
+    border: 2px dashed rgba(251, 249, 250, 1);
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(251, 249, 250, 1);
+    text-transform: uppercase;
+    transition: .3s;
+
+
+}
+
+.vegas-bottom-title {
+    margin: 0 auto;
+    color: rgba(18, 18, 18, 1);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    max-width: 934px;
+}
+
+.check-item:hover {
+    opacity: .8;
+}
+.card-vegas-info {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(251, 249, 250, 1);
+    max-width: 276px;
+}
+.vegas-video-title{
+    max-width: 770px;
+    margin: 0 auto;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+
+
+}
+.vegas-video-section{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 0 ;
+}
+
+
+@media (max-width: 1400px) {
+
+}
+
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+    .vegas-video-section{
+        padding: 80px 0 ;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .vegas-bottom-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 690px) {
+
+}
+@media (max-width: 595px) {
+    .service-vegas-slides{
+        gap: 20px;
+    }
+    .vegas-video-section{
+        padding: 60px 0 ;
+
+    }
+    .service-vegas-item {
+        min-width: 250px;
+        min-height: 300px;
+
+    }
+
+    .service-vegas-profession {
+        padding: 15px 10px;
+        font-size: 20px;
+        line-height: 26px;
+
+    }
+    .vegas-video-title {
+        font-size: 16px;
+        line-height: normal;
+
+    }
+    .vegas-bottom-title {
+        font-size: 16px;
+        line-height: normal;
+    }
+}

@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 84px 0 0;
+    padding: 40px 0 0;
     justify-content: flex-start;
 }
 
@@ -137,7 +137,7 @@
     color: rgba(18, 18, 18, 1);
 }
 
-.check-item {
+.check-vegas-item {
     width: 200px;
     background: rgba(166, 12, 14, 0.1);
     height: 200px;
@@ -151,11 +151,15 @@
     color: rgba(251, 249, 250, 1);
     text-transform: uppercase;
     transition: .3s;
+    margin-top: 130px;
 
 
 }
+.check-vegas-item p{
+    max-width: 86px;
+}
 
-.check-item:hover {
+.check-vegas-item:hover {
     opacity: .8;
 }
 
@@ -214,6 +218,9 @@
     text-transform: uppercase;
     color: rgba(113, 9, 22, 1);
 
+}
+.main-title span{
+    display: block;
 }
 
 .section-sub-title {
@@ -657,7 +664,7 @@
     }
 
     .card-item {
-        padding: 40px 10px;
+        padding: 20px 10px;
         flex: 1 1 100%;
         min-height: 260px;
     }

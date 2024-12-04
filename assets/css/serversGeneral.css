@@ -46,6 +46,7 @@
 }
 .servers-sub-title {
     max-width: 780px;
+    text-transform: uppercase;
 }
 
 .servers-title {

@@ -1,0 +1,24 @@
+
+.production-clue {
+    max-width: 914px;
+    margin: 0 auto;
+}
+
+.production-clue span {
+    font-weight: 700;
+}
+
+.production-support {
+    max-width: 688px;
+    margin: 0 auto;
+}
+
+.production-choose-sub {
+    max-width: 745px;
+}
+.production-request-sub{
+     max-width: 726px;
+}
+.production-request-sub span{
+    font-weight: 700;
+}

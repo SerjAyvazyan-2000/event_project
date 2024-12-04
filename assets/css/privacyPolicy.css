@@ -1,0 +1,149 @@
+
+.privacy-policy-title {
+    color: rgba(18, 18, 18, 1);
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.privacy-policy-cnt {
+    max-width: 1032px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 15px 100px 15px;
+    gap: 40px;
+}
+
+.privacy-text-item {
+    gap: 20px;
+}
+
+.privacy-text {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(18, 18, 18, 1);
+}
+
+
+.privacy-text-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    color: rgba(18, 18, 18, 1);
+    text-transform: uppercase;
+}
+
+.privacy-text span {
+    display: block;
+}
+
+.privacy-dots-list {
+    margin-left: 30px;
+}
+
+
+.privacy-dots-padding{
+    margin-top: 20px;
+
+}
+
+.privacy-dots-list li {
+    position: relative;
+}
+
+.privacy-dots-list li::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    width: 8px;
+    top: 8px;
+    height: 8px;
+    background: rgba(18, 18, 18, 1);
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 1400px) {
+
+
+}
+
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .privacy-policy-cnt {
+        padding: 10px 15px 60px 15px;
+
+        gap: 20px;
+    }
+    .privacy-dots-padding{
+        margin-top: 10px;
+    }
+
+    .privacy-policy-title {
+        font-size: 45px;
+        line-height: 45px;
+
+    }
+    .privacy-text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .privacy-text-title {
+        font-size: 22px;
+        line-height: 24px;
+
+    }
+    .privacy-text-item{
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .privacy-text-title {
+        font-size: 16px;
+        line-height: 23px;
+
+    }
+    .privacy-text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .privacy-text-item{
+        gap: 5px;
+    }
+    .privacy-policy-cnt {
+        padding: 5px 10px 40px 10px;
+
+        gap: 10px;
+    }
+    .privacy-dots-padding{
+        margin-top: 5px;
+    }
+    .privacy-policy-title {
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+}

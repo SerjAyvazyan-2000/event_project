@@ -79,6 +79,11 @@ iconElement.addEventListener('click', () => {
     iconElement.classList.toggle('active');
 });
 
+const iconAgree = document.querySelector('.agree-tools');
+
+iconAgree.addEventListener('click', () => {
+    iconAgree.classList.toggle('active');
+});
 
 
 
@@ -99,3 +104,29 @@ document.querySelectorAll('.host-faq-item').forEach(item => {
 
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.switch-block').forEach(function (element) {
+        element.addEventListener('click', function () {
+            this.classList.toggle('active');
+        });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const selectInput = document.querySelector('.select-input');
+    const selectLabel = document.querySelector('.select-label');
+
+    selectInput.addEventListener('focus', function () {
+        selectLabel.classList.add('active');
+    });
+
+    document.addEventListener('click', function (event) {
+        if (!selectLabel.contains(event.target)) {
+            selectLabel.classList.remove('active');
+        }
+    });
+
+    selectLabel.addEventListener('click', function (event) {
+        event.stopPropagation();
+    });
+});

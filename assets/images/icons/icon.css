@@ -15,6 +15,14 @@
     mask-image: url(arrowDown.svg);
     -webkit-mask-image: url(arrowDown.svg);
 }
+.icon-arrow-down-gray{
+    mask-image: url(arrowDown.svg);
+    -webkit-mask-image: url(arrowDown.svg);
+}
+.icon-search{
+    mask-image: url(search.svg);
+    -webkit-mask-image: url(search.svg);
+}
 .icon-arrow-left{
     mask-image: url(arrowLeft.svg);
     -webkit-mask-image: url(arrowLeft.svg);
@@ -32,6 +40,10 @@
     -webkit-mask-image: url(callCheck.svg);
 }
 .icon-callChecked{
+    mask-image: url(callChecked.svg);
+    -webkit-mask-image: url(callChecked.svg);
+}
+.icon-resume-check{
     mask-image: url(callChecked.svg);
     -webkit-mask-image: url(callChecked.svg);
 }

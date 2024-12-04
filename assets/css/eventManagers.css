@@ -1,0 +1,58 @@
+
+.event-managers-clue {
+    max-width: 822px;
+    margin: 0 auto;
+}
+
+.managers-info-texts{
+    gap: 20px;
+}
+.managers-info-texts p{
+    max-width: 660px;
+}
+
+.managers-info-texts span{
+    display: block;
+}
+.managers-info-title{
+     max-width: 612px;
+}
+.managers-title{
+     max-width: 775px;
+}
+.managers-sub-title{
+    margin-top: 20px;
+}
+.manager-masters-sub{
+     max-width: 762px;
+}
+.managers-request-sub{
+  max-width: 532px;
+}
+@media (max-width: 1400px) {
+
+}
+
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    .managers-info-texts{
+        gap: 10px;
+    }
+    .managers-sub-title{
+        margin-top: 10px;
+    }
+
+}

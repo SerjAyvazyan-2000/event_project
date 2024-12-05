@@ -14,6 +14,26 @@
     font-weight: 700;
 
 }
+
+.bartending-vegas-clue {
+    max-width: 884px;
+    margin: 0 auto;
+}
+
+.servers-bartending-sub {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.servers-bartending-sub span {
+    font-weight: 700;
+}
+.bartending-card-sub{
+    max-width: 235px;
+}
+.bartending-video-title span{
+    font-weight: 700;
+}
 .bartending-img-info{
     margin-top: 25px;
     font-size: 30px;
@@ -31,6 +51,32 @@
      max-width: 598px;
 }
 
+
+.brand-ambassadors-clue {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.brand-ambassadors-clue span{
+    font-weight: 700;
+}
+.brand-ambassadors-wrap{
+    display: block;
+}
+.ambassadors-server-title{
+    margin-top: 20px;
+    max-width: 738px;
+}
+.bartending-lv-event{
+    padding-bottom: 120px;
+}
+
+
+@media (max-width: 767px) {
+    .bartending-lv-event{
+        padding-bottom: 80px;
+    }
+}
+
 @media (max-width: 576px) {
 
     .bartending-img-info {
@@ -41,6 +87,8 @@
 
     }
 
-
+    .bartending-lv-event{
+        padding-bottom: 60px;
+    }
 
 }

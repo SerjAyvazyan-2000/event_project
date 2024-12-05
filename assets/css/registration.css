@@ -55,6 +55,26 @@
 
 
 }
+
+
+.registration-lv-clue {
+     max-width: 992px;
+     margin: 0 auto;
+}
+
+.registration-lv-sub-title {
+     font-size: 30px;
+     font-weight: 400;
+     line-height: 36px;
+     letter-spacing: -0.05em;
+     text-align: center;
+     color: rgba(18, 18, 18, 1);
+     max-width: 984px;
+     margin: 0 auto;
+
+
+}
+
 @media (max-width: 1400px) {
 
 }
@@ -99,5 +119,10 @@
           margin-top: 10px;
 
 
+     }
+     .registration-lv-sub-title {
+          padding-top: 0;
+          font-size: 16px;
+          line-height: normal;
      }
 }

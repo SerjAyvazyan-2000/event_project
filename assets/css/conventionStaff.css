@@ -11,6 +11,13 @@
 .convention-request-sub{
     max-width: 700px;
 }
+.convention-staff-clue{
+    max-width: 980px;
+    margin:0 auto;
+}
+.convention-request-sub span{
+    display: block;
+}
 @media (max-width: 1400px) {
 
 }

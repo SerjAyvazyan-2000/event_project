@@ -11,6 +11,10 @@
 .models-title span{
     display: block;
 }
+
+.models-lv-sub{
+    max-width: 931px;
+}
 .models-sub-title{
      max-width: 472px;
     margin: 0 auto;

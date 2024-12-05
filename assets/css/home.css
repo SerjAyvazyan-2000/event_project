@@ -6,6 +6,9 @@
 }
 
 
+.hero-mobile-img {
+    display: none;
+}
 
 .hero-request {
     right: 30px;
@@ -35,7 +38,8 @@
 
 
 }
-.hero-services-item:hover{
+
+.hero-services-item:hover {
     opacity: .8;
 }
 
@@ -461,7 +465,8 @@
     transition: .3s;
 
 }
-.contact-way:hover{
+
+.contact-way:hover {
     color: red;
     text-decoration: underline;
 }
@@ -474,12 +479,14 @@
     gap: 40px;
     justify-content: center;
 }
-.faq-contact-social a{
+
+.faq-contact-social a {
 
     transition: .3s;
 
 }
-.faq-contact-social a:hover{
+
+.faq-contact-social a:hover {
     transform: scale(1.2);
 }
 
@@ -877,7 +884,6 @@
     }
 
 
-
     .quote-content {
         gap: 20px;
     }
@@ -899,9 +905,18 @@
         padding: 20px 50px;
     }
 
+    .hero-desktop-img {
+        display: none;
+    }
+
     .quote-sub-title {
         font-size: 24px;
         line-height: 30px;
+    }
+
+    .hero-mobile-img {
+        display: block;
+        width: 100%;
     }
 
     .quote-sub-info {
@@ -915,6 +930,10 @@
 
     .slider-button i {
         font-size: 20px;
+    }
+
+    .hero-request {
+        display: none;
     }
 
     .quote-content {
@@ -951,7 +970,9 @@
         font-size: 16px;
         line-height: 20px;
     }
-
+    .hero-section {
+        background: rgba(231, 230, 226, 1);
+    }
     .about-us-descr span {
         font-size: 16px;
         line-height: 20px;
@@ -1005,9 +1026,11 @@
     .faq-answer-item::before {
         left: -30px;
     }
-    .congratulated-carousel-section{
+
+    .congratulated-carousel-section {
         height: 100px;
     }
+
     .reviews-item {
         padding: 20px;
         width: 300px;
@@ -1058,7 +1081,6 @@
     }
 
 
-
     .quote-content {
         gap: 10px;
     }
@@ -1074,7 +1096,7 @@
     }
 
     .hero-services {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     .faq-media-clue {
@@ -1082,7 +1104,6 @@
         line-height: 20px;
         margin-top: 20px;
     }
-
 
 
     .faq-contact {
@@ -1110,9 +1131,11 @@
         font-size: 18px;
         line-height: 20px;
     }
+
     .congratulated-carousel {
         bottom: 60px;
     }
+
     .faq-contact-social a {
         width: 40px;
         height: 40px;
